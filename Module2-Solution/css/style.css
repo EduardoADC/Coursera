@@ -4,17 +4,27 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
   }
+  h1{
+    text-align: center;
+  }
   h2 {
     color: white;
     margin-bottom: 10px;    
-    background-color: gray;
     border: black dashed;
+  }
+  .p1 {
+    background-color: blue;
+  }
+  .p2 {
+    background-color: red;
+  }
+  .p3 {
+    background-color: green;
   }
   
   p {
     height: fit-content;
     width: 90%;
-    height: 150px;
     margin: 0  auto;
     font-family: Helvetica;
     color: black;
@@ -42,9 +52,8 @@
       padding: 8px 16px;
   }
   .container{ 
-     border: 1px solid black;
+      border: 1px solid black;
       max-width: 500px;
-      flex-shrink: 0;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 16px;
