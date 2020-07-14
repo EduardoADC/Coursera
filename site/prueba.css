@@ -1,0 +1,26 @@
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    box-sizing: border-box;
+}
+#p1 {
+    float: left;
+    border: 10px solid orange;
+    width: 50%;
+    font-size: 200%;
+    background-color: blue;
+    text-align: center;
+}
+#p2 {
+    color: white;
+    background-color: black;
+    border: 10px solid orange;
+    border-radius: 30px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    font-size: 200%;
+    text-align: center;
+}
+
+
